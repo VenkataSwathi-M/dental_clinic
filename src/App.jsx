@@ -7,7 +7,7 @@ import Account from './pages/Account';
 import SignIn from "./pages/SignIn";
 import ForgotPassword from "./pages/ForgotPassword"; 
 import BookAppointment from "./pages/BookAppointment";
-import Appbar from "./components/Appbar"; // ✅ Import Appbar
+import Appbar from "./components/Appbar"; 
 import ThankYou from "./pages/ThankYou";
 import CheckInsurance from "./pages/CheckInsurance"
 import "@fontsource/playfair-display";
@@ -17,7 +17,7 @@ import "@fontsource/playfair-display/700.css";
 function App() {
   return (
     <Router>
-      <Appbar /> {/* ✅ Move Appbar OUTSIDE of <Routes> */}
+      <Appbar /> 
       <Routes>
         <Route path="/" element={<EliteDentalStudio />} />
         <Route path="/services" element={<OurServicesLayout />} />
